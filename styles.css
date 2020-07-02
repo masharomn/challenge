@@ -211,7 +211,28 @@ input {
   left: 45%;
 }
 
-.login {
-
+.modal-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 92%;
+  margin: 40px;
+  background: #E5E5E5;
 }
-.password
+
+header {
+  width: 150%;
+  height: 4%;
+  background-color: yellow;
+  margin: 1%;
+}
+
+.new {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  width: 23%;
+  height: 70%;
+  background-color: blue;
+}
