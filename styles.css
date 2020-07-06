@@ -222,17 +222,62 @@ input {
 }
 
 header {
-  width: 150%;
+  width: 599999%; /*WTF?*/
   height: 4%;
   background-color: yellow;
-  margin: 1%;
+  margin: 2%;
 }
+
+footer {
+  position: absolute;
+  top: 79%;
+  width: 96%;
+  height: 17%;
+  background-color: green;
+}
+
 
 .new {
   position: absolute;
   top: 10%;
-  left: 1%;
+  left: 2%;
   width: 23%;
-  height: 70%;
+  height: 65%;
   background-color: blue;
+}
+
+.popular {
+  position: absolute;
+  top: 10%;
+  left: 28%;
+  width: 23%;
+  height: 65%;
+  background-color: blue;
+}
+
+.all {
+  position: absolute;
+  top: 10%;
+  left: 54%;
+  width: 23%;
+  height: 65%;
+  background-color: blue;
+}
+
+.filters {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 18%;
+  height: 65%;
+  background-color: aqua;
+}
+
+.lvl1 {
+  top:30%;
+}
+
+.challenge-card {
+  width:10%;
+  height: 5%;
 }
